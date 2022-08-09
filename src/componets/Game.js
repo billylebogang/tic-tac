@@ -21,22 +21,20 @@ export const Game = () => {
     };
 
 
-    const jumpTo = () => {
+    const pStyle = {
+
+        color: 'green',
+        fontFamily: 'Helvetica',
+        fontSize: '24pt'
 
     }
 
-    const renderMoves = () => {
-
-    }   
-
-
    return (
         <>
-         
          <Board squares={board} onClick={handleClick}/>
 
          <div>  
-            <p>{ winner? 'winner is '+ winner : 'next player is '+ (xIsNext? 'X': 'O') }</p>
+            <p style={pStyle}>{ winner?  winner+ ' won!!! ': (xIsNext? 'X': 'O') + "'s  turn" }</p>
          </div>
         </>
    )
