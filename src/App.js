@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <p>Billy Lebogang tic-tac-toe</p>
+       <p>Billy welcomes you to Tic-Tac-Toe, enjoy!!!</p>
       </header>
       <Game />
     </div>
